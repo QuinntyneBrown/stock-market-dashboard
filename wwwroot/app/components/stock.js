@@ -26,8 +26,18 @@
         component: stockComponent,
         styles: [
             ".stock { ",
-            " position:relative; float:left;",
-            " } "
+            "   position:relative; float:left; margin: 30px;",
+            " } ",
+            " .stockSymbol { ",
+            "   font-size: 40px ",
+            "   font-weight: 300; ",
+            "   padding: 40px 0; ",
+            " } ",
+            "  ",
+            " .stockPrice { ",
+            "   font-size: 32px; ",
+            "   font-weight: bold; ",
+            " } ",
         ],
         template: [
             "<div class='stock'>",            
