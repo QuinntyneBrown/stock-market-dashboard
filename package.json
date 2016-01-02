@@ -1,0 +1,29 @@
+{
+  "name": "stock-market-dashboard",
+  "version": "1.0.0",
+  "description": "0.0.1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinntyneBrown/stock-market-dashboard.git"
+  },
+  "author": "Quinntyne Brown",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuinntyneBrown/stock-market-dashboard/issues"
+  },
+  "homepage": "https://github.com/QuinntyneBrown/stock-market-dashboard#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0"
+  },
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-route": "^1.4.8",
+    "jquery": "^2.1.4",
+    "ng-x": "^0.3.90"
+  }
+}
