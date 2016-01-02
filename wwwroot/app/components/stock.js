@@ -24,11 +24,16 @@
     ngX.Component({
         selector:"stock",
         component: stockComponent,
-        styles: [".stock { }"],
+        styles: [
+            ".stock { ",
+            " position:relative; float:left;",
+            " } "
+        ],
         template: [
-            "<div class='stock'>",
-            "   <h1>{{ vm.stockName }}</h1>",
-            "   <h2>{{ vm.stockPrice }}</h1>",
+            "<div class='stock'>",            
+            "   <h1 class='stockSymbol'>{{ vm.stockName }}</h1>",
+            "   <i data-ng-if='!vm.stockPrice' class='fa fa-cog fa-spin'></i> ",
+            "   <h2 class'stockPrice'>{{ vm.stockPrice }}</h1>",
             "</div>"
         ],
         providers:[
